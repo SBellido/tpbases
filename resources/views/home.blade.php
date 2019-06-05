@@ -85,7 +85,7 @@
                 
                     <ul>
                         @foreach ($voluntarios as $voluntario)
-                            <li>{{$voluntario->nombre}}</li>
+                            <li>{{$voluntario->cod_pallet}}</li>
                         @endforeach
                     </ul>
                 </div>

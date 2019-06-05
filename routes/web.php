@@ -12,3 +12,14 @@
 */
 
 Route::get('/', 'HomeController@index');
+Route::get('/instituciones', 'HomeController@instituciones');
+
+
+Route::get('/posiciones-libres', 'PosicionesLibresController@showDate');
+
+Route::post('/posiciones-libres', 'PosicionesLibresController@showDate');
+
+Route::get('/posiciones-usuario', 'PosicionesLibresController@showByUser');
+
+Route::post('/posiciones-usuario', 'PosicionesLibresController@showByUser');
+
