@@ -57,7 +57,7 @@ $('.datepicker').datepicker({
     startView: 1,
     maxViewMode: 3,
     calendarWeeks: true,
-    autoclose: true,
+    autoclose: false,
     format: "yyyy-mm-dd",
     defaultViewDate: { year: 2000, month: 01, day: 01 }
 });
